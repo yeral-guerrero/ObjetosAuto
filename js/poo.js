@@ -16,5 +16,13 @@ for (var i = 0; i<10;i++)
 {
     if(i%2==0)
         varcoche[i] = cocheUno;
-    else varcoche[i] =cocheDos;
+    else 
+        varcoche[i] =cocheDos;
 }
+
+for (var i = 0; i<10;i++) 
+{
+        //document.write(`${varcoche[i]}`);
+        console.log(varcoche[i]);
+}
+
