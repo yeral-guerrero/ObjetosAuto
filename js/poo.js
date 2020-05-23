@@ -22,7 +22,7 @@ for (var i = 0; i<10;i++)
 
 for (var i = 0; i<10;i++) 
 {
-        //document.write(`${varcoche[i]}`);
-        console.log(varcoche[i]);
+    document.write(`${varcoche[i].marca}  ${varcoche[i].modelo}  ${varcoche[i].anyo} <br>`);
+    console.log(varcoche[i]);
 }
 
