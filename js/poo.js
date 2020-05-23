@@ -8,8 +8,8 @@ function coche(marca, modelo, anyo)
 }
 
 // 'new' genera una nueva instancia de nuestra función constructora
-var cocheUno = new coche('Ford', 'C_HR', '2020');
-var cocheDos = new coche('Ferrari', 'Corsa', '2017');
+var cocheUno = new coche('Ford', 'Focus', '2020');
+var cocheDos = new coche('Ferrari', 'Purosangue', '2017');
 
 var varcoche = [];
 for (var i = 0; i<10;i++) 
